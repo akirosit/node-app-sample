@@ -1,6 +1,6 @@
-import './App.css';
+import "./App.css";
 import Confetti from "./Confetti";
-import logo from './logo.svg';
+import logo from "./logo.svg";
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <h1 style={{ marginBottom: "0px" }}>Congratulations !!!</h1>
         <p style={{ marginTop: "10px", marginBottom: "50px" }}>
-          Your container is running 🙌🏻
+          The application is running 🙌🏻
         </p>
       </header>
     </div>
