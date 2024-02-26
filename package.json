@@ -1,5 +1,5 @@
 {
-  "name": "docker-sample",
+  "name": "node-app-sample",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,18 +8,15 @@
     "react-particles": "^2.9.3",
     "react-scripts": "^5.0.1",
     "tsparticles": "^2.9.3"
-
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -33,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
